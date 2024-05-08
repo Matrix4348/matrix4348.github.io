@@ -12,7 +12,7 @@ How to proceed:
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
 <br>*My user script does not work in Greasemonkey 4, so in any browser supporting that, use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
-* **If you want high scores to be submitted, install the very good [Kong Flash API patcher](https://greasyfork.org/en/scripts/494088-kong-flash-api-patcher) user script from Colin969, a Ruffle developer.** It doesnot work with every games yet, but it does for a good part of them.
+* **If you want high scores to be submitted, install the very good [Kong Flash API patcher](https://greasyfork.org/en/scripts/494088-kong-flash-api-patcher) user script from Colin969, a Ruffle developer.** It does not work with every games yet, but it does for a good part of them.
 
 ## 2) Adobe Flash Player
 
@@ -27,7 +27,7 @@ How to proceed:
 * Install Greasemonkey for Pale Moon, by opening [this link](https://github.com/janekptacijarabaci/greasemonkey/releases/download/3.31.4Fork/greasemonkey-3.31.4-pm_forkBranch.xpi) <u>in Pale Moon</u>.
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
 
-**Warning:** If you only see a black screen while still being able to hear audio and interact, then you might want to read [this page](http://flashpointarchive.org/datahub/Extended_FAQ#AMD) (this bug only affects certain graphic cards).
+**Warning:** If all you see is a black screen while still being able to hear audio and interact, then you might want to read [this page](http://flashpointarchive.org/datahub/Extended_FAQ#AMD) (this bug only affects certain graphic cards).
 
 ## 3) SuperNova player *(Windows only!)*
 
