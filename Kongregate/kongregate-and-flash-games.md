@@ -48,8 +48,8 @@ How to proceed:
 <br>*My user script does not work in Greasemonkey 4, so in any browser supporting that, use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
 
-#  
+<hr>
 
-This has been tested on the Firefox, Pale Moon, Edge, Chrome, Basilisk and Waterfox Classic browsers, on Windows, Mac and Linux (sparkylinux, at least) and everything that was supposed to work, worked. 
+The Kongregate Flash games fixer has been successfully tested on Firefox, Pale Moon, Edge, Chrome, Basilisk and Waterfox Classic, on Windows, Mac and Linux (sparkylinux, at least).
 
 *Last edited on 2024, May 8th.*
