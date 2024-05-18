@@ -6,13 +6,13 @@ In order to solve this problem, I created a user script: [the Kongregate Flash g
 
 ## 1) Ruffle
 
-Ruffle is a Flash player emulator in active development. You can read more about it at [ruffle.rs](ruffle.rs). It can run most games, but not all. With my user script, you will be able to play more games than without and with a second one, **you will even see some of them submit high scores!**
+Ruffle is a Flash player emulator in active development. You can read more about it at [ruffle.rs](ruffle.rs). It can run most games, but not all. With my user script, you will be able to play more games than without and with a second one, **you will even see them submit high scores!**
 
 How to proceed:
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
 <br>*My user script does not work in Greasemonkey 4, so in any browser supporting that, use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
-* **If you want high scores to be submitted, install the very good [Kong Flash API patcher](https://greasyfork.org/en/scripts/494088-kong-flash-api-patcher) user script from Colin969, a Ruffle developer.** It does not work with every games yet, but it does for a good part of them.
+* **If you want high scores to be submitted, install the very good [Kong Flash API patcher](https://greasyfork.org/en/scripts/494088-kong-flash-api-patcher) user script from Colin969, a Ruffle developer.**
 
 ## 2) Adobe Flash Player
 
