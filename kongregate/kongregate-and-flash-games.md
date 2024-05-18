@@ -52,4 +52,4 @@ How to proceed:
 
 The Kongregate Flash games fixer has been successfully tested on Firefox, Pale Moon, Edge, Chrome, Basilisk and Waterfox Classic, on Windows, Mac and Linux (sparkylinux, at least).
 
-*Last edited on 2024, May 8th.*
+*Last edited on 2024, May 18th.*
