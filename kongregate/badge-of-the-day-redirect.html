@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>Badge of the day redirect</title>
+
+<style>
+* {
+    	margin: 0;
+}
+a:link, a:visited {
+    	color: #900;
+    	outline: none;
+}
+.spritegame {
+    	background: transparent url(gamepage_sprite.png) no-repeat 0 0;
+}
+.badge_row {
+    	position: relative;
+    	width: 337px;
+    	margin-bottom: 2px;
+    	background-color: #FFF;
+    	padding: 10px;
+    	font: normal 11px Verdana,Arial,sans-serif;
+    	cursor: pointer;
+    	margin-top: 2px;
+}
+.badge_row:hover {
+	background-color: #fffae2;
+}
+.complete {
+	background-position: 0 -775px;
+}
+.incomplete {
+	background-position: 0 -731px;
+}
+.truncate {
+    	display: inline-block;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	-o-text-overflow: ellipsis;
+    	white-space: nowrap;
+}
+em.easy_difficulty {
+    	width:30px;
+    	background-position:0 -1770px
+}
+em.medium_difficulty {
+    	width:35px;
+    	background-position:0 -1781px
+}
+em.hard_difficulty {
+    	width:36px;
+    	background-position:0 -1792px
+}
+em.impossible_difficulty {
+    	width:36px;
+    	background-position:0 -1803px
+}
+</style>
+
+<script src="badges.js"></script>
+
+<script src="botd.js"></script>
+
+<script>
+function what_badge_is_it(badges,id){
+	var l=badges.length;
+	for (let k=0; k<l; k++){
+		if(badges[k].id==id){ return k; }
+	}
+	return -1 // In case the badge would be missing from the badges file
+}
+
+function what_is_the_badge_of_the_day(badges,botd_id){
+	var b=what_badge_is_it(botd_id);
+	var no_badge={"id": 0, "name": "Something Happened to the", "created_at": "", "icon_url": "https://cdn1.kongcdn.com/assets/files/0000/5144/kongbot-404-w-mountains.png", "games": [{"title": "Kongregate", "url": "https://www.kongregate.com/kongpanions"}], "points": 0, "difficulty": "easy", "description": "The badge of the day could not be identified, either because it is a very recent one or due to some server error.", "users_count": 0}
+	return b>-1 ? badges[b] : no_badge
+}
+
+var Badges = badges | [{"id":-4348}]; // In case badges.js would not load
+var botd_id = botd | -666; // In case botd.js would not load
+var badge_of_the_day = what_is_the_badge_of_the_day(Badges,botd_id);
+</script>
+
+<script>
+function fill_badge_sample(b){
+     	document.getElementById("badge_row_title").title="("+b.difficulty+" - "+b.points+" points)";
+	document.getElementById("badge_logo").src=b.icon_url;
+	document.getElementById("the_border").title=b.name;
+	document.getElementById("badge_name").href=b.games[0].url;
+	document.getElementById("badge_name").innerText=b.name+" Badge";
+	document.getElementById("badge_em").classList.add(b.difficulty+"_difficulty");
+	document.getElementById("game_name").href=b.games[0].url;
+	document.getElementById("game_name").innerText=b.games[0].title;
+	document.getElementById("badge_description").innerText="   "+b.description;
+	var B=document.getElementById("my_button");
+	redirecting_enabled ? B.innerHTML="<i>(Disable redirecting)</i>" : B.innerHTML="<i>(Enable redirecting)</i>";
+}
+</script>
+
+<script>
+function get_parameter(p){
+	urlp={"default_redirect":5};
+	s=location.toString().split('?');
+	s=s.length>1 ? s[1].split('&') : s[0].split('&');
+	for(i=0;i<s.length;i++){
+		u=s[i].length>1 ? s[i].split('=') : s[0].split('=');
+		urlp[u[0]]=u[1];
+	}
+	"redirect" in urlp ? urlp.redirect_enabled_in_url=(urlp.redirect<=0|urlp.redirect>0) : urlp.redirect_enabled_in_url=false;
+	if( urlp.redirect==undefined ){ urlp.redirect=5; }
+	return urlp[p]
+}
+</script>
+
+<script>
+var user_time_before_redirecting=get_parameter("redirect");
+redirecting_enabled=(user_time_before_redirecting>0|user_time_before_redirecting<=0)*1;
+
+function count_down_and_redirect(t){
+	var b=badge_of_the_day;
+	if(t<=0&redirecting_enabled){
+		document.getElementById("redirect_text").innerHTML=`You are being redirected to <a href="`+b.games[0].url+`">`+b.games[0].title+`</a>.`;
+		document.location.href=b.games[0].url;
+	}
+	else if(t==1&redirecting_enabled){
+		document.getElementById("redirect_text").innerHTML=`You will be redirected to <a href="`+b.games[0].url+`">`+b.games[0].title+`</a> in 1 second.`;
+		setTimeout(count_down_and_redirect,1000,t-1);
+	}
+	else if(t>0&redirecting_enabled){
+		document.getElementById("redirect_text").innerHTML=`You will be redirected to <a href="`+b.games[0].url+`">`+b.games[0].title+`</a> in `+t+` seconds.`;
+		setTimeout(count_down_and_redirect,1000,t-1);
+	}
+	else{
+		document.getElementById("redirect_text").innerHTML=`You have disabled automatic redirection to <a href="`+b.games[0].url+`">`+b.games[0].title+`</a>.`;
+	}	
+}
+
+function click_the_button(){
+	var b=document.getElementById("my_button");
+	redirecting_enabled=1-redirecting_enabled;
+	redirecting_enabled ? b.innerHTML="<i>(Disable redirecting)</i>" : b.innerHTML="<i>(Enable redirecting)</i>";
+	get_parameter("redirect_enabled_in_url") ? count_down_and_redirect(user_time_before_redirecting) : count_down_and_redirect(get_parameter("default_redirect"));
+}
+</script>
+</head>
+
+<body>
+
+<div style="text-align:center; margin-top:50px; margin-bottom:50px;">
+	<a href="https://www.kongregate.com">
+		<img src="https://matrix4348.github.io/logos/kongregate.png" height="100px" width="100px">
+	</a>
+</div>
+
+<div style="font: 62.5% 'Lucida Grande',Verdana,Arial,sans-serif; margin-left:25%;">    
+	<table cellspacing="0" cellpadding="0" border="0" style="table-layout: fixed;">
+		<tbody>
+		   <tr>
+			<td style="width:350px;">
+				<p style="font-size:25px;">The badge of the day is: </p>
+			</td>
+			<td style="padding: 24px 0 30px;">
+				<!--============ #feature ============-->
+  				<div class="hasLayout" style="width: 359px; background-color: #DDD; padding: 4px 4px 4px 6px;">
+					<div id="badge_row_title" class="badge_row" title="">
+						<div style="float: left; margin-right: 9px; position: relative;">
+							<div style="width: 44px; height: 44px;">
+  								<img id="badge_logo" title="" src="" width="36" height="36" style="width:36px; height:36px; margin:4px; border:0;">
+							</div>
+							<div id="the_border" title="" class="incomplete spritegame" style="width:44px; height:44px; position:absolute; top:0;"></div>
+
+						</div>
+  						<div style="max-width:290px; margin-left:auto;">
+      						<a id="badge_name" class="truncate" href="" style="color:#222; font-weight:bold; max-width:250px; text-decoration:none; vertical-align:text-bottom;"></a>
+      						<em id="badge_em" class="spritegame" style="position:absolute; top:10px; right:8px; color:#666; height:11px;"></em>
+							<p><a id="game_name" href=""></a><span id="badge_description"></span></p>
+  						</div>
+					</div>
+    					<div style="clear:both;"></div>
+    				</div>
+				<!--============ /#feature ============-->
+		 	</td>
+        	  </tr>
+		</tbody>
+	</table>
+</div>
+<br><br><br>
+<div style="text-align:center;">
+	<span id="redirect_text" style="font:20px 'Lucida Grande',Verdana,Arial,sans-serif;"></span>
+	<button id="my_button" style="font-size:18px; margin-left:10px;" onclick="click_the_button();"><i>(Disable redirecting)</i></button>
+</div>
+<br><br><br>
+<div style="font-size:18px; text-align:center;">
+	By default, redirecting occurs five seconds after the page finishes loading. However, you can change this waiting time to x seconds by adding "?redirect=x" at the end of the URL of this page. Fox example, <i>https://matrix4348.github.io/kongregate/badge-of-the-day-redirect?redirect=0</i> will instantly redirect you to the game of the day. Any character string that is not a number will disable the redirecting.
+</div>
+
+<script>
+fill_badge_sample(badge_of_the_day);
+count_down_and_redirect(user_time_before_redirecting);
+</script>
+        
+</body>
+
+</html> 
