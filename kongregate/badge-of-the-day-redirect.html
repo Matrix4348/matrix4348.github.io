@@ -80,8 +80,8 @@ function what_is_the_badge_of_the_day(badges,botd_id){
 }
 
 var Badges, botd_id;
-badges ? Badges = badges : Badges = [{"id":-4348}]; // In case badges.js would not load
-botd ? botd_id = botd : botd_id = -666; // In case botd.js would not load
+typeof(badges)!="undefined" ? Badges = badges : Badges = [{"id":-4348}]; // In case badges.js would not load
+typeof(botd)!="undefined" ? botd_id = botd : botd_id = -666; // In case botd.js would not load
 var badge_of_the_day = what_is_the_badge_of_the_day(Badges,botd_id);
 </script>
 
