@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<root>
+	<text key="exampleKey">
+		<language key="en|es|de|it|fr|po">Text here</language>
+	</text>
+	
+	<x-info class="MainTimeLine" />
+	<text key="intro1">
+		<language key="en">Sola Rola community-restored edition [2012-09-28]
+48/48 levels complete (100.0%)
+</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro2">
+		<language key="en">Brought to you by zAlbee, askon, and the Kongregate community.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro3">
+		<language key="en">Original game by Adam Schroeder (Evilfree Games)</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro4">
+		<language key="en">Levels restored by: askon, Danaroth, hamuka, ...</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro5">
+		<language key="en">... JimmyCarlos, Lebossle, sanieac, snipahar, zAlbee</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro6">
+		<language key="en">Level Editor: zAlbee
+Flash decompiled by: swfChan</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro7">
+		<language key="en">Thanks to: Regrin84 for the walkthrough videos.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro8">
+		<language key="en">If you want to help with any missing dialogue or translations...</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro9">
+		<language key="en">or you know where to find the original developer...</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro10">
+		<language key="en">please post in kongregate.com/forums</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro11">
+		<language key="en">Thanks!
+	-zAlbee</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="intro25">
+		<language key="en">Skip Intro &gt;&gt;</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+
+	<x-info class="Rotator" />
+	<text key="play">
+		<language key="en">Play</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="more games">
+		<language key="en">More Games</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="credits">
+		<language key="en">Credits</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="about">
+		<language key="en">Sola Rola - About</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Time">
+		<language key="en">Time</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="level select2">
+		<language key="en">Select Level</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="next">
+		<language key="en">Next</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="previous">
+		<language key="en">Previous</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="main menu">
+		<language key="en">Main Menu</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	<x-info class="PauseMenu" />
+	<text key="Game Paused">
+		<language key="en">Game Paused</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 1">
+		<language key="en">Resume</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 2">
+		<language key="en">More Games</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 3">
+		<language key="en">Quit</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 4">
+		<language key="en">Reset Level</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 6">
+		<language key="en">Quality</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 5">
+		<language key="en">Sola Rola - About</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 9">
+		<language key="en">LOW</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 8">
+		<language key="en">MED</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Pause Menu 7">
+		<language key="en">HIGH</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	<x-info class="AboutMenu" />
+	<text key="About 1">
+		<language key="en">About 1</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="Site">
+		<language key="en">Site</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	<x-info class="CreditsMenu" />
+	<text key="credits2">
+		<language key="en"></language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="credits3">
+		<language key="en"></language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="credits4">
+		<language key="en"></language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	<x-info class="WellDoneMenu" />
+	<text key="Level">
+		<language key="en">Level</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="well done">
+		<language key="en">Well Done!</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="your time">
+		<language key="en">Your Time</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="best time">
+		<language key="en">Best Time</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="submit">
+		<language key="en">Submit</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="level select">
+		<language key="en">Level Select</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="replay level">
+		<language key="en">Replay Level</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="next level">
+		<language key="en">Next Level</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	<x-info class="Rotator" func="startDialogSequence" />
+	<x-info level="1" last="t1h" />
+	<text key="t1a">
+		<language key="en">Oof! Gravity is a harsh mistress.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t1b">
+		<language key="en">Indeed. Tough landing.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	<x-info level="3" last="t2g" />
+	<text key="t2a">
+		<language key="en">Um... Wiz.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t2b">
+		<language key="en">What's up, big fella?</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+
+	<x-info level="5" last="t3i" />
+	<text key="t3a">
+		<language key="en"></language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t3d">
+		<language key="en">That's not how it works; we both need to be in our exits to be able to leave, so you'll have to help.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t3e">
+		<language key="en">Right. What do I have to do then?</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t3f">
+		<language key="en">Simply roll onto the switch to make the wall disappear. It will reappear when you roll off it.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t3g">
+		<language key="en">Sounds easy enough. Okay Wiz, get ready.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	<x-info level="8" last="t4f" />
+	<text key="t4a">
+		<language key="en">Wow, look at all the colours! It looks like you've thrown up in here Waz.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t4b">
+		<language key="en">Thanks! How about you stop insulting me and help get me out!</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t4c">
+		<language key="en">Chillax brother! I've got things under control. I have three switches: blue, red, and green.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	<x-info level="14" last="t5i" />
+	<text key="t5a">
+		<language key="en">Oh, this doesn't feel right.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t5b">
+		<language key="en">Hey Waz, how's it hanging?</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t5c">
+		<language key="en">Very funny. You gonna make wise cracks all day, or help figure out what we do here?</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t5d">
+		<language key="en">We appear to be linked by a gravity beam.</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	<text key="t5e">
+		<language key="en">Great, I have no idea what you're talking about. How do we separate?</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+	
+	
+	<text key="x">
+		<language key="en">x</language>
+		<language key="es"></language>
+		<language key="de"></language>
+		<language key="it"></language>
+		<language key="fr"></language>
+		<language key="po"></language>
+	</text>
+</root>
