@@ -7,24 +7,24 @@
 
 <style>
 * {
-    	margin: 0;
+	margin: 0;
 }
 a:link, a:visited {
-    	color: #900;
-    	outline: none;
+	color: #900;
+	outline: none;
 }
 .spritegame {
-    	background: transparent url(gamepage_sprite.png) no-repeat 0 0;
+	background: transparent url(gamepage_sprite.png) no-repeat 0 0;
 }
 .badge_row {
-    	position: relative;
-    	width: 337px;
-    	margin-bottom: 2px;
-    	background-color: #FFF;
-    	padding: 10px;
-    	font: normal 11px Verdana,Arial,sans-serif;
-    	cursor: pointer;
-    	margin-top: 2px;
+	position: relative;
+	width: 337px;
+	margin-bottom: 2px;
+	background-color: #FFF;
+	padding: 10px;
+	font: normal 11px Verdana,Arial,sans-serif;
+	cursor: pointer;
+	margin-top: 2px;
 }
 .badge_row:hover {
 	background-color: #fffae2;
@@ -36,27 +36,27 @@ a:link, a:visited {
 	background-position: 0 -731px;
 }
 .truncate {
-    	display: inline-block;
-    	overflow: hidden;
-    	text-overflow: ellipsis;
-    	-o-text-overflow: ellipsis;
-    	white-space: nowrap;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
 }
 em.easy_difficulty {
-    	width:30px;
-    	background-position:0 -1770px
+	width:30px;
+	background-position:0 -1770px
 }
 em.medium_difficulty {
-    	width:35px;
-    	background-position:0 -1781px
+	width:35px;
+	background-position:0 -1781px
 }
 em.hard_difficulty {
-    	width:36px;
-    	background-position:0 -1792px
+	width:36px;
+	background-position:0 -1792px
 }
 em.impossible_difficulty {
-    	width:36px;
-    	background-position:0 -1803px
+	width:36px;
+	background-position:0 -1803px
 }
 </style>
 
@@ -74,7 +74,7 @@ function what_badge_is_it(badges,id){
 }
 
 function what_is_the_badge_of_the_day(badges,botd_id){
-	var b=what_badge_is_it(botd_id);
+	var b=what_badge_is_it(badges,botd_id);
 	var no_badge={"id": 0, "name": "Something Happened to the", "created_at": "", "icon_url": "https://cdn1.kongcdn.com/assets/files/0000/5144/kongbot-404-w-mountains.png", "games": [{"title": "Kongregate", "url": "https://www.kongregate.com/kongpanions"}], "points": 0, "difficulty": "easy", "description": "The badge of the day could not be identified, either because it is a very recent one or due to some server error.", "users_count": 0}
 	return b>-1 ? badges[b] : no_badge
 }
