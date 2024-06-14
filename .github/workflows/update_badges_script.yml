@@ -20,11 +20,15 @@ jobs:
         run: python .github/scripts/update_badges_js.py
       - name: Commit changes
         run: |
-          git config --global user.email "127596209+Matrix4348@users.noreply.github.com"
-          git config --global user.name "Workflow"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:GITHUB_TOKEN@github.com/${{ github.repository }}
           git add ./kongregate/badges.js
-          git commit --allow-empty -m "Update badges"
-          git push origin
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update badges"
+            git push origin
+          else
+            echo "No changes.";
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
