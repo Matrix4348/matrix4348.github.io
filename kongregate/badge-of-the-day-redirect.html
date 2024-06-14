@@ -89,7 +89,7 @@ var badge_of_the_day = what_is_the_badge_of_the_day(Badges,botd_id);
 <script>
 function fill_badge_sample(b){
      	document.getElementById("badge_row_title").title="("+b.difficulty+" - "+b.points+" points)";
-	document.getElementById("badge_logo").src=b.icon_url;
+	document.getElementById("badge_logo").src=b.icon_url.replace(".png","_grayscale.png");
 	document.getElementById("the_border").title=b.name;
 	document.getElementById("badge_name").href=b.games[0].url;
 	document.getElementById("badge_name").innerText=b.name+" Badge";
