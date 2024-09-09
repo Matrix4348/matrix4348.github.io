@@ -10,7 +10,8 @@ Ruffle is a Flash player emulator in active development. You can read more about
 
 How to proceed:
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
-<br>*My user script does not work in Greasemonkey 4, so in any browser supporting that, use something else.*
+<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there).**
+<br>*My user script does not work in Greasemonkey 4, so in any browser supporting that (only Firefox?), use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
 * **If you want high scores to be submitted, install the very good [Kong Flash API patcher](https://greasyfork.org/en/scripts/494088-kong-flash-api-patcher) user script from Colin969, a Ruffle developer.**
 
@@ -19,7 +20,7 @@ How to proceed:
 Despite its end of life, Adobe Flash Player can still be used with the proper setup. The upside is that everything will work as it used to, including high scores submission.
 
 How to proceed:
-* Install a browser supporting Flash. I recommend [Pale Moon](https://www.palemoon.org) or Basilisk. Most browsers (including Firefox, Edge and Chrome) stopped supporting Flash in 2020.
+* Install a browser supporting Flash. I recommend [Pale Moon](https://www.palemoon.org) or Basilisk. **Most browsers (including Firefox, Edge and Chrome) stopped supporting Flash in 2020.**
 * (Windows and Mac only, I think) If Flash is already installed on your computer and if the version number is strictly higher than 32.0.0.371, then uninstall it.
 * Download and unzip [these zipped files](https://archive.org/download/flashplayerarchive/pub/flashplayer/installers/archive/fp_32.0.0.371_archive.zip). Then, open the correct installer for your system: *flashplayer32_0r0_371_win.exe* (Windows), *flashplayer32_0r0_371_mac.dmg* (Mac), *flashplayer32_0r0_371_linux.i386.tar.gz* (32-bit Linux) or *flashplayer32_0r0_371_linux.x86_64.tar.gz* (64-bit Linux).
 <br>**IMPORTANT:** If asked at the end of the installation, disable the automatic updates!
@@ -36,7 +37,8 @@ The SuperNova player is launched from the browser but opens games in its own win
 How to proceed:
 * Install the [SuperNova player](https://web.archive.org/web/20210426173012id_/https://cdn.getsupernova.com/update/SuperNovaSetup0.1.23.exe) on your computer.
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
-<br>*My user script does not work in Greasemonkey 4, so in any browser supporting that, use something else.*
+<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there).**
+<br>*My user script does not work in Greasemonkey 4, so in any browser supporting that (only Firefox?), use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
 
 ## 4) AwayFL
@@ -45,11 +47,12 @@ AwayFL is another Flash player emulator, still in development.
 
 How to proceed:
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
-<br>*My user script does not work in Greasemonkey 4, so in any browser supporting that, use something else.*
+<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there).**
+<br>*My user script does not work in Greasemonkey 4, so in any browser supporting that (only Firefox?), use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
 
 <hr>
 
 The Kongregate Flash games fixer has been successfully tested on Firefox, Pale Moon, Edge, Chrome, Basilisk, Waterfox Classic and Vivaldi, on Windows, Mac and Linux (sparkylinux, at least).
 
-*Last edited on 2024, June 12th.*
+*Last edited on 2024, September 9th.*
