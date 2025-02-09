@@ -26,6 +26,7 @@ jobs:
           git add ./kongregate/badges.js
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update badges"
+            git pull --rebase --autostash
             git push origin
           else
             echo "No changes.";

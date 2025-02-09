@@ -29,6 +29,7 @@ jobs:
           git add ./kongregate/botd.js
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update badge of the day"
+            git pull --rebase --autostash
             git push origin
           else
             echo "No changes.";
