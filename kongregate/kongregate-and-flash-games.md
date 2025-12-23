@@ -13,7 +13,7 @@ How to proceed:
 <br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there).**
 <br>*My user script does not work in Greasemonkey 4, so in any browser supporting that (only Firefox?), use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
-* **If you want high scores to be submitted, install the very good [Kong Flash API patcher](https://greasyfork.org/en/scripts/494088-kong-flash-api-patcher) user script from Colin969, a Ruffle developer.**
+* Games written in Actionscript 3 will submit high scores without any extra step. However, **if you want high scores to be submitted on Actionscript 1 and 2 games, then you will need to install the very good [Kong Flash API patcher](https://greasyfork.org/en/scripts/494088-kong-flash-api-patcher) user script from Colin969, a Ruffle developer.**
 
 ## 2) Adobe Flash Player
 
