@@ -2,7 +2,7 @@
 
 After Adobe Flash Player's end of life in 2020, Kongregate made their Flash games load in another swf player: SuperNova. However, it was not perfect (and they did not implement it perfectly either) so they later decided to switch over to Ruffle. Unfortunately, they did not implement it properly and it is still is development. As a result, there are games on Kongregate that do not load while they should or are partly broken and none of the Flash games can submit high scores (meaning badges do not award naturally).
 
-In order to solve this problem, I created a user script: [the Kongregate Flash games fixer](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer). This script allows people to choose between four different swf players to play Flash games by adding buttons above them (which can also be used to reload said games). You will find below a short description of each swf player, how to install my script (and whatever else that could be needed for each of them) and how to get everything working.
+In order to solve this problem, I created a user script: [the Kongregate Flash games fixer](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer). This script allows people to choose between four different swf players to play Flash games by adding buttons below them (which can also be used to reload said games). You will find below a short description of each swf player, how to install my script (and whatever else that could be needed for each of them) and how to get everything working.
 
 ## 1) Ruffle
 
