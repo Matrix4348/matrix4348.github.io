@@ -1,14 +1,3 @@
-___
-
-# *WARNING*
-##### *(Read this notice after you have read what interests you on this page)*
-
-Somewhere in December 2025, something changed with Flash games written in Actionscript 3 (which represent either a third or two thirds of Flash games on Kongregate) but I do not know what. As of February 12th, 2026, those games currently submit high scores **only with Ruffle** and **the Kong Flash API Patcher user script becomes mandatory again for this to happen**.
-
-Games written in Actionscript 1 or 2, however, continue to work as described in the rest of this page.
-
-___
-
 # Kongregate and Flash games
 
 After Adobe Flash Player's end of life in 2020, Kongregate made their Flash games load in another swf player: SuperNova. However, it was not perfect (and they did not implement it perfectly either) so they later decided to switch over to Ruffle. Unfortunately, they did not implement it properly and it is still is development. As a result, there are games on Kongregate that do not load while they should or are partly broken and none of the Flash games can submit high scores (meaning badges do not award naturally).
@@ -66,4 +55,4 @@ How to proceed:
 
 The Kongregate Flash games fixer has been successfully tested on Firefox, Pale Moon, Edge, Chrome, Basilisk, Waterfox Classic and Vivaldi, on Windows, Mac and Linux (sparkylinux, at least).
 
-*Last edited on 2026, February 12th.*
+*Last edited on 2026, February 14th.*
