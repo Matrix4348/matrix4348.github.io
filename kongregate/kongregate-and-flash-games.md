@@ -6,14 +6,13 @@ In order to solve this problem, I created a user script: [the Kongregate Flash g
 
 ## 1) Ruffle
 
-Ruffle is a Flash player emulator in active development. You can read more about it at [ruffle.rs](ruffle.rs). It can run most games, but not all. With my user script, you will be able to play more games than without and with a second one, **you will even see them submit high scores!**
+Ruffle is a Flash player emulator in active development. You can read more about it at [ruffle.rs](ruffle.rs). It can run most games, but not all. With my user script, you will be able to play more games than without and **you will even see them submit high scores!**
 
 How to proceed:
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
-<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there).**
-<br>*My user script does not work in Greasemonkey 4, so in any browser supporting that (only Firefox?), use something else.*
+<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there). You can also go the the extension settings from that menu and find a checkbox such as "allow user scripts".**
+<br>*My user script does not work in Greasemonkey 4 (but prior versions are fine), so in any browser supporting that (only Firefox?), use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
-* Games written in Actionscript 3 will submit high scores without any extra step. However, **if you want high scores to be submitted on Actionscript 1 and 2 games, then you will need to install the very good [Kong Flash API patcher](https://greasyfork.org/en/scripts/494088-kong-flash-api-patcher) user script from Colin969, a Ruffle developer.**
 
 ## 2) Adobe Flash Player
 
@@ -37,7 +36,7 @@ The SuperNova player is launched from the browser but opens games in its own win
 How to proceed:
 * Install the [SuperNova player](https://web.archive.org/web/20210426173012id_/https://cdn.getsupernova.com/update/SuperNovaSetup0.1.23.exe) on your computer.
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
-<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there).**
+<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there). You can also go the the extension settings from that menu and find a checkbox such as "allow user scripts".**
 <br>*My user script does not work in Greasemonkey 4, so in any browser supporting that (only Firefox?), use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
 
@@ -47,7 +46,7 @@ AwayFL is another Flash player emulator, still in development.
 
 How to proceed:
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
-<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there).**
+<br>**WARNING: on Chrome and its siblings, you may need to enable developer mode for extensions, if you want any user script to run (go to about://extensions and toggle it on from there). You can also go the the extension settings from that menu and find a checkbox such as "allow user scripts".**
 <br>*My user script does not work in Greasemonkey 4, so in any browser supporting that (only Firefox?), use something else.*
 * Go to [Greasyfork](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer) and click "install".
 
@@ -55,4 +54,4 @@ How to proceed:
 
 The Kongregate Flash games fixer has been successfully tested on Firefox, Pale Moon, Edge, Chrome, Basilisk, Waterfox Classic and Vivaldi, on Windows, Mac and Linux (sparkylinux, at least).
 
-*Last edited on 2026, February 14th.*
+*Last edited on 2026, September 15<sup>th</sup>.*
