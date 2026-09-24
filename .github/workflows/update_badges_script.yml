@@ -5,7 +5,7 @@ on:
 
 jobs:
   update_badges:
-    name: Update the list of badges
+    name: Update the lists of badges
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository content
@@ -23,7 +23,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:GITHUB_TOKEN@github.com/${{ github.repository }}
-          git add ./kongregate/badges.js
+          git add .
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update badges"
             git pull --rebase --autostash
