@@ -52,4 +52,4 @@ finally:
         with open(badges_json, 'w+', encoding="utf-8") as f:
             json.dump(updated_badges, f)
         with open(badges_file,"w",encoding="utf-8") as f:
-            f.write("badges="+str(badges)+";")
+            f.write("badges="+str(updated_badges)+";")
