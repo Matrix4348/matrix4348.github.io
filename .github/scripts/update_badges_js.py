@@ -6,7 +6,7 @@ import re
 original_badges_json = "https://api.kongregate.com/badges.json" # api.kongregate.com and www.kongregate.com both work
 badges_json = "./kongregate/badges.json"
 badges_file = "./kongregate/badges.js"
-achievements_page = "https://www.kongregate.com/en/achievements?sort=newest"
+achievements_page = "https://www.kongregate.com/en/achievements?sort=newest" # Use /en/ to avoid unwanted translations.
 
 with open(badges_file, "r", encoding="utf-8") as f:
     exec(str(f.read())) # Reminder: badges.js assigns the content of badges.json to a variable named badges
@@ -30,7 +30,7 @@ except:
         bdg["name"] = achievement.img["alt"]
         bdg["created_at"] = "unknown" # Cannot be retrieved from the achievements page
         bdg["icon_url"] = achievement.img["src"]
-        bdg["games"] = [{"title": ps[0].get_text(strip=True), "url": achievement["href"][0:achievement["href"].find("?")]}]
+        bdg["games"] = [{"title": ps[0].get_text(strip=True), "url": achievement["href"][0:achievement["href"].find("?")].replace(".com/en/",".com/",1)}]
         bdg["points"] = int(achievement.span.get_text(strip=True)[0:achievement.span.get_text(strip=True).find(" ")])
         bdg["difficulty"] = {5:"easy", 15:"medium", 30:"hard", 60:"impossible"}[bdg["points"]]
         bdg["description"] = ps[1].get_text(strip=True)
