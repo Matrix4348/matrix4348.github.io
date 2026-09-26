@@ -1,13 +1,30 @@
+## IMPORT
 import json
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 
+## FUNCTIONS
+def check_if_truncated(s, original): # Checks if a string s is a truncated version of a string original ending with ...
+    s_len, o_len = len(s), len(original)
+    if s_len > 3 and s[-3:] == "...":
+        if s_len < o_len + 3: # A bad program could replace the last one,two or three characters with three dots...
+            if s[:-3] == original[:s_len-3] and s[:-2] != original[:s_len-2] and s[:-1] != original[:s_len-1]:
+                return True
+            else:
+                return False
+        else:
+            return False
+    else:
+        return False
+
+## PATHS
 original_badges_json = "https://api.kongregate.com/badges.json" # api.kongregate.com and www.kongregate.com both work
 badges_json = "./kongregate/badges.json"
 badges_file = "./kongregate/badges.js"
 achievements_page = "https://www.kongregate.com/en/achievements?sort=newest" # Use /en/ to avoid unwanted translations.
 
+## EXECUTION
 with open(badges_file, "r", encoding="utf-8") as f:
     exec(str(f.read())) # Reminder: badges.js assigns the content of badges.json to a variable named badges
 
@@ -40,6 +57,9 @@ except:
             # However, we still keep this badge here, in case other values changed.
             bdg["created_at"] = badges_dict[bdg["id"]]["created_at"]
             bdg["users_count"] = badges_dict[bdg["id"]]["users_count"]
+            old_desc, new_desc = badges_dict[bdg["id"]]["description"], bdg["description"]
+            if check_if_truncated(new_desc, old_desc): # Since on that page, descriptions are cut when th...
+                bdg["description"] = badges_dict[bdg["id"]]["description"]
         new_badges.append(bdg)
 finally:
     changes_counter = 0
