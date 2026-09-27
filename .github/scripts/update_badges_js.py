@@ -65,6 +65,8 @@ finally:
     changes_counter = 0
     for b in new_badges:
         if b not in badges: # If badge did not exist OR if something changed about this badge
+            if b["games"] == []: # If a badge is no longer linked to any games, then keep previous game data
+                b["games"] = badges_dict[b["id"]]["games"]
             badges_dict[b["id"]] = b
             changes_counter += 1
     updated_badges = [y for x,y in sorted(badges_dict.items())]
