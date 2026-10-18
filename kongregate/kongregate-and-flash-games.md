@@ -1,12 +1,12 @@
 # Kongregate and Flash games
 
-After Adobe Flash Player's end of life in 2020, Kongregate made their Flash games load in another swf player: SuperNova. However, it was not perfect (and they did not implement it perfectly either) so they later decided to switch over to Ruffle. Unfortunately, they did not implement it properly and it is still is development. As a result, there are games on Kongregate that do not load while they should or are partly broken and none of the Flash games can submit high scores (meaning badges do not award naturally).
+After Adobe Flash Player's end of life in 2020, Kongregate made their Flash games load in another swf player: SuperNova. However, it was not perfect (and they did not implement it perfectly either) so they later decided to switch over to Ruffle. Unfortunately, they did not implement it properly and it is still in development. As a result, there are games on Kongregate that do not load while they should or are partly broken and none of the Flash games can submit high scores (meaning badges do not award naturally).
 
 In order to solve this problem, I created a user script: [the Kongregate Flash games fixer](https://greasyfork.org/en/scripts/438325-kongregate-flash-games-fixer). This script allows people to choose between four different swf players to play Flash games by adding buttons below them (which can also be used to reload said games). You will find below a short description of each swf player, how to install my script (and whatever else that could be needed for each of them) and how to get everything working.
 
 ## 1) Ruffle
 
-Ruffle is a Flash player emulator in active development. You can read more about it at [ruffle.rs](ruffle.rs). It can run most games, but not all. With my user script, you will be able to play more games than without and **you will even see them submit high scores!**
+Ruffle is a Flash player emulator in active development. You can read more about it at [ruffle.rs](ruffle.rs). It can run most games, but not all. With my user script, you will be able to play more games than without it and **you will even see them submit high scores!**
 
 How to proceed:
 * Install a user script manager (a browser extension that... manages user scripts): Tampermonkey, Violentmonkey, Greasemonkey or something else (with "monkey" in the name, most of the time...). Then, activate it (if needed).
@@ -20,7 +20,7 @@ Despite its end of life, Adobe Flash Player can still be used with the proper se
 
 How to proceed:
 * Install a browser supporting Flash. I recommend [Pale Moon](https://www.palemoon.org) or Basilisk. **Most browsers (including Firefox, Edge and Chrome) stopped supporting Flash in 2020.**
-* (Windows and Mac only, I think) If Flash is already installed on your computer and if the version number is strictly higher than 32.0.0.371, then uninstall it.
+* (Windows and Mac only, I think) If Flash is already installed on your computer and if the version number is strictly greater than 32.0.0.371, then uninstall it.
 * Download and unzip [these zipped files](https://archive.org/download/flashplayerarchive/pub/flashplayer/installers/archive/fp_32.0.0.371_archive.zip). Then, open the correct installer for your system: *flashplayer32_0r0_371_win.exe* (Windows), *flashplayer32_0r0_371_mac.dmg* (Mac), *flashplayer32_0r0_371_linux.i386.tar.gz* (32-bit Linux) or *flashplayer32_0r0_371_linux.x86_64.tar.gz* (64-bit Linux).
 <br>**IMPORTANT:** If asked at the end of the installation, disable the automatic updates!
 <br>**Note:** If you are using another browser, you *might* need to run the files that have the same names but also contain "pep". This will be the case for Chrome, Edge and Opera.
@@ -31,7 +31,7 @@ How to proceed:
 
 ## 3) SuperNova player *(Windows only!)*
 
-The SuperNova player is launched from the browser but opens games in its own window. You can read more on the [official website](getsupernova.com) but the player is no longer maintained (or so it seems) and it can be wrongly labeled as a threat by antivirus softwares. Most games run in it but high scores do not (and will never) be submitted.
+The SuperNova player is launched from the browser but opens games in its own window. You can read more on the [official website](getsupernova.com) but the player is no longer maintained (or so it seems) and it can be wrongly labeled as a threat by antivirus softwares. Most games run in it but high scores do not get (and will never be) submitted.
 
 How to proceed:
 * Install the [SuperNova player](https://web.archive.org/web/20210426173012id_/https://cdn.getsupernova.com/update/SuperNovaSetup0.1.23.exe) on your computer.
@@ -54,4 +54,4 @@ How to proceed:
 
 The Kongregate Flash games fixer has been successfully tested on Firefox, Pale Moon, Edge, Chrome, Basilisk, Waterfox Classic and Vivaldi, on Windows, Mac and Linux (sparkylinux, at least).
 
-*Last edited on 2026, September 15<sup>th</sup>.*
+*Last edited on October 18<sup>th</sup>, 2026.*
