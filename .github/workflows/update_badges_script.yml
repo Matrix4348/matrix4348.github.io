@@ -6,7 +6,7 @@ on:
 jobs:
   update_badges:
     name: Update the lists of badges
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository content
         uses: actions/checkout@v7 # Checkout the repository content to github runner.
