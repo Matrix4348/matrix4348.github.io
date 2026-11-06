@@ -1,0 +1,360 @@
+<level>
+	<x-info rope="true" created_by="Danaroth" />
+	<wizStartTile x="0" y="9" />
+	<wazStartTile x="0" y="0" />
+	<tiles>
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="gate" color="0x0000FF" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="gate" color="0x008800" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="gate" color="0x0000FF" />
+
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="wizGoal" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+
+		<tPiece type="none" />
+		<tPiece type="gate" color="0xFF0000" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="gate" color="0x0000FF" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="wazGoal" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="gate" color="0xFF0000" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="none" />
+		<tPiece type="gate" color="0x0000FF" />
+		<tPiece type="none" />
+		<tPiece type="gate" color="0x0000FF" />
+	</tiles>
+	<hWalls>
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+		<wPiece y="0" type="standard" />
+
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="standard" />
+		<wPiece y="1" type="gate" color="0x0000FF" />
+
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+		<wPiece y="2" type="none" />
+
+		<wPiece y="3" type="standard" />
+		<wPiece y="3" type="none" />
+		<wPiece y="3" type="none" />
+		<wPiece y="3" type="none" />
+		<wPiece y="3" type="none" />
+		<wPiece y="3" type="none" />
+		<wPiece y="3" type="none" />
+		<wPiece y="3" type="none" />
+		<wPiece y="3" type="none" />
+		<wPiece y="3" type="standard" />
+
+		<wPiece y="4" type="none" />
+		<wPiece y="4" type="none" />
+		<wPiece y="4" type="none" />
+		<wPiece y="4" type="none" />
+		<wPiece y="4" type="gate" color="0x0000FF" />
+		<wPiece y="4" type="none" />
+		<wPiece y="4" type="none" />
+		<wPiece y="4" type="none" />
+		<wPiece y="4" type="none" />
+		<wPiece y="4" type="none" />
+
+		<wPiece y="5" type="standard" />
+		<wPiece y="5" type="standard" />
+		<wPiece y="5" type="standard" />
+		<wPiece y="5" type="gate" color="0xFF0000" />
+		<wPiece y="5" type="gate" color="0xFF0000" />
+		<wPiece y="5" type="gate" color="0xFF0000" />
+		<wPiece y="5" type="gate" color="0xFF0000" />
+		<wPiece y="5" type="standard" />
+		<wPiece y="5" type="standard" />
+		<wPiece y="5" type="standard" />
+
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+		<wPiece y="6" type="none" />
+
+		<wPiece y="7" type="standard" />
+		<wPiece y="7" type="none" />
+		<wPiece y="7" type="none" />
+		<wPiece y="7" type="none" />
+		<wPiece y="7" type="none" />
+		<wPiece y="7" type="none" />
+		<wPiece y="7" type="none" />
+		<wPiece y="7" type="none" />
+		<wPiece y="7" type="none" />
+		<wPiece y="7" type="standard" />
+
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+		<wPiece y="8" type="none" />
+
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="standard" />
+		<wPiece y="9" type="gate" color="0x0000FF" />
+
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+		<wPiece y="10" type="standard" />
+	</hWalls>
+	<vWalls>
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+		<wPiece x="0" type="standard" />
+
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+		<wPiece x="1" type="none" />
+
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+		<wPiece x="2" type="none" />
+
+		<wPiece x="3" type="gate" color="0xFF0000" />
+		<wPiece x="3" type="none" />
+		<wPiece x="3" type="none" />
+		<wPiece x="3" type="none" />
+		<wPiece x="3" type="none" />
+		<wPiece x="3" type="none" />
+		<wPiece x="3" type="none" />
+		<wPiece x="3" type="none" />
+		<wPiece x="3" type="none" />
+		<wPiece x="3" type="gate" color="0x0000FF" />
+
+		<wPiece x="4" type="none" />
+		<wPiece x="4" type="none" />
+		<wPiece x="4" type="none" />
+		<wPiece x="4" type="none" />
+		<wPiece x="4" type="gate" color="0x0000FF" />
+		<wPiece x="4" type="none" />
+		<wPiece x="4" type="none" />
+		<wPiece x="4" type="none" />
+		<wPiece x="4" type="none" />
+		<wPiece x="4" type="none" />
+
+		<wPiece x="5" type="none" />
+		<wPiece x="5" type="none" />
+		<wPiece x="5" type="none" />
+		<wPiece x="5" type="none" />
+		<wPiece x="5" type="gate" color="0x0000FF" />
+		<wPiece x="5" type="none" />
+		<wPiece x="5" type="none" />
+		<wPiece x="5" type="none" />
+		<wPiece x="5" type="none" />
+		<wPiece x="5" type="none" />
+
+		<wPiece x="6" type="none" />
+		<wPiece x="6" type="none" />
+		<wPiece x="6" type="none" />
+		<wPiece x="6" type="none" />
+		<wPiece x="6" type="gate" color="0x0000FF" />
+		<wPiece x="6" type="none" />
+		<wPiece x="6" type="none" />
+		<wPiece x="6" type="none" />
+		<wPiece x="6" type="none" />
+		<wPiece x="6" type="gate" color="0x008800" />
+
+		<wPiece x="7" type="gate" color="0x0000FF" />
+		<wPiece x="7" type="none" />
+		<wPiece x="7" type="none" />
+		<wPiece x="7" type="none" />
+		<wPiece x="7" type="gate" color="0x0000FF" />
+		<wPiece x="7" type="none" />
+		<wPiece x="7" type="none" />
+		<wPiece x="7" type="none" />
+		<wPiece x="7" type="none" />
+		<wPiece x="7" type="none" />
+
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+		<wPiece x="8" type="none" />
+
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+		<wPiece x="9" type="none" />
+
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+		<wPiece x="10" type="standard" />
+	</vWalls>
+</level>
